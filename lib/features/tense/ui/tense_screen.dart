@@ -3,9 +3,9 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_task/core/theme/app_color.dart';
 import 'package:flutter_task/core/widgets/top_app_bar.dart';
 
-import 'providers/tense_providers.dart';
-import 'widgets/exam_card.dart';
-import 'widgets/tense_search_bar.dart';
+import '../providers/tense_providers.dart';
+import '../widgets/exam_card.dart';
+import '../widgets/tense_search_bar.dart';
 
 class TenseScreen extends ConsumerWidget {
   const TenseScreen({super.key});

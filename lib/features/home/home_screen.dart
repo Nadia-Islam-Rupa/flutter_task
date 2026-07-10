@@ -3,7 +3,7 @@ import 'package:flutter_task/core/theme/app_color.dart';
 
 import '../answer_review/answer_review_screen.dart';
 import '../quiz/quiz_screen.dart';
-import '../tense/tense_screen.dart';
+import '../tense/ui/tense_screen.dart';
 
 /// Simple menu so each mocked screen can be opened and navigated to
 /// independently for review/testing.
