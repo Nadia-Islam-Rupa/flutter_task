@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_task/core/theme/app_color.dart';
 import 'package:flutter_task/core/theme/app_style.dart';
+import 'package:flutter_task/data/models/tense_model/tense_exam_model.dart';
 
-import '../models/tense_exam.dart';
 import 'status_badge.dart';
 
-/// Single exam card: title + status, meta info, topic line, action buttons.
 class ExamCard extends StatelessWidget {
   const ExamCard({
     super.key,

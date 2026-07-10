@@ -1,5 +1,3 @@
-/// Simple immutable model describing one exam/quiz list item on the
-/// Tense screen, plus the static sample data shown in the mockup.
 class TenseExam {
   const TenseExam({
     required this.title,
