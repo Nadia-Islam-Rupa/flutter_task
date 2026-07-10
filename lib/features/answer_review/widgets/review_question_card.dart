@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_task/core/theme/app_color.dart';
+import 'package:flutter_task/data/models/answer_review/answer_model.dart';
 
-import '../models/review_question.dart';
 import 'review_action_buttons.dart';
 import 'review_option_row.dart';
 

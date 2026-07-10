@@ -9,8 +9,6 @@ class ReviewOption {
   final ReviewOptionStatus status;
 }
 
-/// One reviewed question with its options and static sample data set,
-/// matching assets/Right and wrong answer.png.
 class ReviewQuestion {
   const ReviewQuestion({
     required this.number,
@@ -44,7 +42,11 @@ class ReviewQuestion {
         ReviewOption('A', 'Ziaur Rahman', ReviewOptionStatus.wrongSelected),
         ReviewOption('B', 'Sheikh Mujibur Rahman', ReviewOptionStatus.correct),
         ReviewOption('C', 'A. K. Fazlul Huq', ReviewOptionStatus.neutral),
-        ReviewOption('D', 'Huseyn Shaheed Suhrawardy', ReviewOptionStatus.neutral),
+        ReviewOption(
+          'D',
+          'Huseyn Shaheed Suhrawardy',
+          ReviewOptionStatus.neutral,
+        ),
       ],
     ),
     ReviewQuestion(

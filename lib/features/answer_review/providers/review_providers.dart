@@ -1,8 +1,6 @@
 import 'package:flutter_riverpod/legacy.dart';
-import '../models/review_question.dart';
+import 'package:flutter_task/data/models/answer_review/answer_model.dart';
 
-/// Favorite (heart) toggle state per question number, seeded from the
-/// static sample data's initial isFavorite flags.
 final reviewFavoritesProvider =
     StateNotifierProvider<ReviewFavoritesNotifier, Map<int, bool>>(
       (ref) => ReviewFavoritesNotifier(),
