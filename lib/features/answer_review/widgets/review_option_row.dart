@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_task/core/theme/app_color.dart';
 import 'package:flutter_task/data/models/answer_review/answer_model.dart';
 
-/// One answer option row, colored pink for the wrong selected answer,
-/// blue/green for the correct answer, or plain white otherwise.
 class ReviewOptionRow extends StatelessWidget {
   const ReviewOptionRow({super.key, required this.option});
 
