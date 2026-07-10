@@ -26,6 +26,8 @@ class AppTopBar extends StatelessWidget {
             title,
             textAlign: TextAlign.center,
             style: AppTextStyles.appBarTitle,
+            overflow: TextOverflow.ellipsis,
+            maxLines: 1,
           ),
         ),
         CircleIconButton(icon: Icons.share, onTap: onShare),
