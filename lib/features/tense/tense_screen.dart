@@ -7,8 +7,6 @@ import 'providers/tense_providers.dart';
 import 'widgets/exam_card.dart';
 import 'widgets/tense_search_bar.dart';
 
-/// Tense exam-list screen: search + filter header followed by a scrollable
-/// list of exam cards. Matches assets/Tense.png.
 class TenseScreen extends ConsumerWidget {
   const TenseScreen({super.key});
 

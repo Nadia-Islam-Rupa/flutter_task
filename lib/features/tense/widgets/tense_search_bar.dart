@@ -5,7 +5,6 @@ import 'package:flutter_task/core/widgets/icon_button_circle.dart';
 
 import '../providers/tense_providers.dart';
 
-/// Search pill + circular filter button shown at the top of the Tense list.
 class TenseSearchBar extends ConsumerWidget {
   const TenseSearchBar({super.key, this.onFilterTap});
 
