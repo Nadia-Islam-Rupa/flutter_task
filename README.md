@@ -8,10 +8,13 @@ A Flutter UI task project showcasing three polished quiz-related screens built w
 
 ### 1. Home Screen
 A simple launcher screen with three navigation buttons, one for each feature screen.
-![Home Screen](assets/screenshots/home.png)
+
+![Home Screen](asstes/screenshots/home.png)
 
 ### 2. Tense Screen
 A scrollable list of exam cards for tense-related tests.
+
+![Tense Screen](asstes/screenshots/tense.png)
 
 - Live search bar that filters exams by title in real time
 - Each **ExamCard** shows:
@@ -24,6 +27,8 @@ A scrollable list of exam cards for tense-related tests.
 ### 3. Flashcard (Quiz) Screen
 An MCQ quiz screen with a countdown timer.
 
+![Quiz Screen](asstes/screenshots/quiz.png)
+
 - Gradient purple **question card** displaying the current question
 - **Level progress bar** with a red-to-purple gradient fill and a gradient-ringed `current/total` badge
 - **Timer badge** showing a live mm:ss countdown (30-second auto-dispose timer)
@@ -32,6 +37,8 @@ An MCQ quiz screen with a countdown timer.
 
 ### 4. Answer Review Screen
 A post-quiz review screen showing correct/wrong answers per question.
+
+![Answer Review Screen](asstes/screenshots/answer_review.png)
 
 - Exam title header with a filter icon button
 - Each **ReviewQuestionCard** (lavender background) contains:
