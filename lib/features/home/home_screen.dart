@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_task/core/theme/app_color.dart';
 
-import '../answer_review/answer_review_screen.dart';
+import '../answer_review/ui/answer_review_screen.dart';
 import '../quiz/ui/quiz_screen.dart';
 import '../tense/ui/tense_screen.dart';
 

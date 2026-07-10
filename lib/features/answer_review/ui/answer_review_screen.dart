@@ -5,8 +5,8 @@ import 'package:flutter_task/core/widgets/icon_button_circle.dart';
 import 'package:flutter_task/core/widgets/top_app_bar.dart';
 import 'package:flutter_task/data/models/answer_review/answer_model.dart';
 
-import 'providers/review_providers.dart';
-import 'widgets/review_question_card.dart';
+import '../providers/review_providers.dart';
+import '../widgets/review_question_card.dart';
 
 /// Answer Review screen: header, exam title + filter, and a scrollable
 /// list of reviewed question cards. Matches
