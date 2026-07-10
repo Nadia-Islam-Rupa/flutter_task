@@ -1,4 +1,3 @@
-/// One flashcard-style multiple choice question and its static sample data.
 class QuizQuestion {
   const QuizQuestion({
     required this.question,

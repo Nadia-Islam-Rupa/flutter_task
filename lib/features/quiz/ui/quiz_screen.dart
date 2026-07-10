@@ -2,16 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_task/core/theme/app_color.dart';
 import 'package:flutter_task/core/widgets/top_app_bar.dart';
+import 'package:flutter_task/data/models/quiz_model/quiz_model.dart';
 
-import 'models/quiz_question.dart';
-import 'providers/quiz_providers.dart';
-import 'widgets/quiz_level_bar.dart';
-import 'widgets/quiz_option_tile.dart';
-import 'widgets/quiz_question_card.dart';
-import 'widgets/quiz_timer_badge.dart';
+import '../providers/quiz_providers.dart';
+import '../widgets/quiz_level_bar.dart';
+import '../widgets/quiz_option_tile.dart';
+import '../widgets/quiz_question_card.dart';
+import '../widgets/quiz_timer_badge.dart';
 
-/// Flashcard-style single question quiz screen. Matches
-/// assets/Create Quiz.png.
 class QuizScreen extends ConsumerWidget {
   const QuizScreen({super.key});
 
