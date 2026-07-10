@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_task/core/theme/app_color.dart';
 import 'package:flutter_task/core/widgets/top_app_bar.dart';
-import 'package:flutter_task/data/models/quiz_model/quiz_model.dart';
+import 'package:flutter_task/data/models/quiz/quiz_model.dart';
 
 import '../providers/quiz_providers.dart';
 import '../widgets/quiz_level_bar.dart';

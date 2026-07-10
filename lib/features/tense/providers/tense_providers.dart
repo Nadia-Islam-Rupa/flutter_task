@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_riverpod/legacy.dart';
-import 'package:flutter_task/data/models/tense_model/tense_exam_model.dart';
+import 'package:flutter_task/data/models/tense/tense_exam_model.dart';
 
 final tenseSearchQueryProvider = StateProvider<String>((ref) => '');
 

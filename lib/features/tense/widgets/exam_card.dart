@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_task/core/theme/app_color.dart';
 import 'package:flutter_task/core/theme/app_style.dart';
-import 'package:flutter_task/data/models/tense_model/tense_exam_model.dart';
+import 'package:flutter_task/data/models/tense/tense_exam_model.dart';
 
 import 'status_badge.dart';
 
