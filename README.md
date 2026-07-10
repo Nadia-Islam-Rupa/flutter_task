@@ -8,7 +8,7 @@ A Flutter UI task project showcasing three polished quiz-related screens built w
 
 ### 1. Home Screen
 A simple launcher screen with three navigation buttons, one for each feature screen.
-
+![Home Screen](assets/screenshots/home.png)
 
 ### 2. Tense Screen
 A scrollable list of exam cards for tense-related tests.
