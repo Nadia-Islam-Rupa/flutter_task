@@ -28,7 +28,7 @@ class AppTopBar extends StatelessWidget {
             style: AppTextStyles.appBarTitle,
           ),
         ),
-        CircleIconButton(icon: Icons.ios_share_outlined, onTap: onShare),
+        CircleIconButton(icon: Icons.share, onTap: onShare),
         const SizedBox(width: 10),
         CircleIconButton(
           icon: Icons.notifications_none_rounded,

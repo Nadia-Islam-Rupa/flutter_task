@@ -42,13 +42,18 @@ class QuizScreen extends ConsumerWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      const Text(
-                        'No of Questuon',
-                        style: TextStyle(
-                          fontSize: 14,
-                          color: AppColors.textPrimary,
+                      const Flexible(
+                        child: Text(
+                          'No of Questuon',
+                          style: TextStyle(
+                            fontSize: 14,
+                            color: AppColors.textPrimary,
+                          ),
+                          overflow: TextOverflow.ellipsis,
+                          maxLines: 1,
                         ),
                       ),
+                      const SizedBox(width: 8),
                       QuizTimerBadge(secondsLeft: secondsLeft),
                     ],
                   ),

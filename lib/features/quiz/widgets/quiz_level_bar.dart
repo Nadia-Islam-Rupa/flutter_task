@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_task/core/theme/app_color.dart';
 
-/// "Level" row: gray track with a red-to-purple gradient fill, plus a
-/// gradient-ringed "current/total" badge at the end.
 class QuizLevelBar extends StatelessWidget {
   const QuizLevelBar({super.key, required this.current, required this.total});
 
@@ -15,12 +13,17 @@ class QuizLevelBar extends StatelessWidget {
 
     return Row(
       children: [
-        const Text(
-          'Level',
-          style: TextStyle(
-            fontSize: 14,
-            fontWeight: FontWeight.w600,
-            color: AppColors.textPrimary,
+        const Flexible(
+          flex: 0,
+          child: Text(
+            'Level',
+            style: TextStyle(
+              fontSize: 14,
+              fontWeight: FontWeight.w600,
+              color: AppColors.textPrimary,
+            ),
+            overflow: TextOverflow.ellipsis,
+            maxLines: 1,
           ),
         ),
         const SizedBox(width: 12),
